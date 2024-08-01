@@ -28,7 +28,7 @@ Installing an agent onto the virtual machine that allows the collection of event
 <br />
 <img src="https://github.com/user-attachments/assets/49e406d6-25ed-47c4-ab34-2d9dc48f6145" height="30%" width="90%" alt="Installing the elastic stack agaent onto the virtual machine">
 
-# Creating an alert rule for nmap scans that will log and alert you of any nmap scans to you Virtual machine.
+# Creating an alert rule for nmap scans.
 Here we used the KQL Query to <code>process.arg:"nmap"</code> as our custom rule for our alerts and after doing so run some nmap scans on our virtual machine to test the rule and the entire system and the alerts \
 <br />
 <br />
